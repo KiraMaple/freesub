@@ -6,32 +6,32 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇱 PL 01 - xiaohe",
-        "🇵🇱 PL 02 - xiaohe",
-        "🇵🇱 PL 03 - xiaohe",
-        "🇵🇱 PL 04 - xiaohe",
-        "🇵🇱 PL 05 - xiaohe",
-        "🇵🇱 PL 06 - xiaohe",
-        "🇵🇱 PL 07 - xiaohe",
-        "🇵🇱 PL 08 - xiaohe",
-        "🇵🇱 PL 09 - xiaohe",
-        "🇵🇱 PL 10 - xiaohe"
+        "🇵🇱 PL 01 - KiraMaple",
+        "🇵🇱 PL 02 - KiraMaple",
+        "🇵🇱 PL 03 - KiraMaple",
+        "🇵🇱 PL 04 - KiraMaple",
+        "🇵🇱 PL 05 - KiraMaple",
+        "🇵🇱 PL 06 - KiraMaple",
+        "🇵🇱 PL 07 - KiraMaple",
+        "🇵🇱 PL 08 - KiraMaple",
+        "🇵🇱 PL 09 - KiraMaple",
+        "🇵🇱 PL 10 - KiraMaple"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 PL 01 - xiaohe",
-        "🇵🇱 PL 02 - xiaohe",
-        "🇵🇱 PL 03 - xiaohe",
-        "🇵🇱 PL 04 - xiaohe",
-        "🇵🇱 PL 05 - xiaohe",
-        "🇵🇱 PL 06 - xiaohe",
-        "🇵🇱 PL 07 - xiaohe",
-        "🇵🇱 PL 08 - xiaohe",
-        "🇵🇱 PL 09 - xiaohe",
-        "🇵🇱 PL 10 - xiaohe"
+        "🇵🇱 PL 01 - KiraMaple",
+        "🇵🇱 PL 02 - KiraMaple",
+        "🇵🇱 PL 03 - KiraMaple",
+        "🇵🇱 PL 04 - KiraMaple",
+        "🇵🇱 PL 05 - KiraMaple",
+        "🇵🇱 PL 06 - KiraMaple",
+        "🇵🇱 PL 07 - KiraMaple",
+        "🇵🇱 PL 08 - KiraMaple",
+        "🇵🇱 PL 09 - KiraMaple",
+        "🇵🇱 PL 10 - KiraMaple"
       ],
       "url": "https://www.google.com/generate_204"
     },

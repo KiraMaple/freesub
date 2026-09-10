@@ -6,18 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇿🇦 ZA 01 - xiaohe",
-        "🇿🇦 ZA 02 - xiaohe",
-        "🇿🇦 ZA 03 - xiaohe"
+        "🇿🇦 ZA 01 - KiraMaple",
+        "🇿🇦 ZA 02 - KiraMaple",
+        "🇿🇦 ZA 03 - KiraMaple"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇿🇦 ZA 01 - xiaohe",
-        "🇿🇦 ZA 02 - xiaohe",
-        "🇿🇦 ZA 03 - xiaohe"
+        "🇿🇦 ZA 01 - KiraMaple",
+        "🇿🇦 ZA 02 - KiraMaple",
+        "🇿🇦 ZA 03 - KiraMaple"
       ],
       "url": "https://www.google.com/generate_204"
     },
