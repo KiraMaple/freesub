@@ -6,16 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇩🇰 DK 01 - KiraMaple",
-        "🇩🇰 DK 02 - KiraMaple"
+        "🇮🇪 IE 01 - KiraMaple",
+        "🇮🇪 IE 02 - KiraMaple",
+        "🇮🇪 IE 03 - KiraMaple"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇩🇰 DK 01 - KiraMaple",
-        "🇩🇰 DK 02 - KiraMaple"
+        "🇮🇪 IE 01 - KiraMaple",
+        "🇮🇪 IE 02 - KiraMaple",
+        "🇮🇪 IE 03 - KiraMaple"
       ],
       "url": "https://www.google.com/generate_204"
     },

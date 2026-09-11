@@ -6,18 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇴 NO 01 - KiraMaple",
-        "🇳🇴 NO 02 - KiraMaple",
-        "🇳🇴 NO 03 - KiraMaple"
+        "🇹🇷 土耳其 (Turkey) 01 - KiraMaple",
+        "🇹🇷 土耳其 (Turkey) 02 - KiraMaple",
+        "🇹🇷 土耳其 (Turkey) 03 - KiraMaple"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇴 NO 01 - KiraMaple",
-        "🇳🇴 NO 02 - KiraMaple",
-        "🇳🇴 NO 03 - KiraMaple"
+        "🇹🇷 土耳其 (Turkey) 01 - KiraMaple",
+        "🇹🇷 土耳其 (Turkey) 02 - KiraMaple",
+        "🇹🇷 土耳其 (Turkey) 03 - KiraMaple"
       ],
       "url": "https://www.google.com/generate_204"
     },
