@@ -6,27 +6,44 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - KiraMaple
   type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: ab3a17ae-4d4f-45ff-a05f-4d27b7f97838
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 02 - KiraMaple
+  type: vless
+  server: 116.204.164.30
+  port: 7443
+  uuid: d5f29a64-da5d-4f99-b3c4-ae92cc39ad5f
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  servername: tradingview.com
-  client-fingerprint: firefox
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇦🇪 阿联酋 (UAE) 01 - KiraMaple
+  - 🇦🇪 阿联酋 (UAE) 02 - KiraMaple
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇦🇪 阿联酋 (UAE) 01 - KiraMaple
+  - 🇦🇪 阿联酋 (UAE) 02 - KiraMaple
 rules:
 - MATCH,PROXIES

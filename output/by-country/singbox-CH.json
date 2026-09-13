@@ -6,16 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇿 KZ 01 - KiraMaple",
-        "🇰🇿 KZ 02 - KiraMaple"
+        "🇨🇭 CH 01 - KiraMaple",
+        "🇨🇭 CH 02 - KiraMaple",
+        "🇨🇭 CH 03 - KiraMaple"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇿 KZ 01 - KiraMaple",
-        "🇰🇿 KZ 02 - KiraMaple"
+        "🇨🇭 CH 01 - KiraMaple",
+        "🇨🇭 CH 02 - KiraMaple",
+        "🇨🇭 CH 03 - KiraMaple"
       ],
       "url": "https://www.google.com/generate_204"
     },

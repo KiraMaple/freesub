@@ -6,47 +6,22 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - KiraMaple
   type: vless
-  server: 172.64.42.85
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 104.21.78.9
+  port: 443
+  uuid: a8890c1b-3622-3106-c4be-d8671be32d2b
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: summer-meadow-af5b.woowoorrrkk.workers.dev
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /sync
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: summer-meadow-af5b.woowoorrrkk.workers.dev
 - name: 🇨🇿 CZ 02 - KiraMaple
   type: vless
-  server: 162.159.43.187
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇨🇿 CZ 03 - KiraMaple
-  type: vless
   server: 104.18.46.46
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇨🇿 CZ 04 - KiraMaple
-  type: vless
-  server: 162.159.38.127
-  port: 2082
+  port: 2052
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -56,6 +31,47 @@ proxies:
     path: /?ed=2560security=tls+
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇨🇿 CZ 03 - KiraMaple
+  type: vless
+  server: 108.162.198.178
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇨🇿 CZ 04 - KiraMaple
+  type: vless
+  server: green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev
+  port: 2087
+  uuid: 5a0028f9-c656-cec9-4b61-54678477a408
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev
+  network: ws
+  ws-opts:
+    path: '%2F'
+    headers:
+      Host: green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev
+- name: 🇨🇿 CZ 05 - KiraMaple
+  type: vless
+  server: 172.67.157.183
+  port: 443
+  uuid: 401d950d-4f5c-45c7-bf44-8b69acf35f6f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 7x70yyvT7eQOtx-IQ9N3RJT1xn1jwkh9.asDFsAFdsAF.WORkerS.Dev
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiR2xWQ1FCQzYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+    headers:
+      Host: 7x70yyvt7eqotx-iq9n3rjt1xn1jwkh9.asdfsafdsaf.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -65,6 +81,7 @@ proxy-groups:
   - 🇨🇿 CZ 02 - KiraMaple
   - 🇨🇿 CZ 03 - KiraMaple
   - 🇨🇿 CZ 04 - KiraMaple
+  - 🇨🇿 CZ 05 - KiraMaple
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -74,5 +91,6 @@ proxy-groups:
   - 🇨🇿 CZ 02 - KiraMaple
   - 🇨🇿 CZ 03 - KiraMaple
   - 🇨🇿 CZ 04 - KiraMaple
+  - 🇨🇿 CZ 05 - KiraMaple
 rules:
 - MATCH,PROXIES
