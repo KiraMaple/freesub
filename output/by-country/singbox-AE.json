@@ -6,14 +6,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇪 阿联酋 (UAE) 01 - KiraMaple"
+        "🇦🇪 阿联酋 (UAE) 01 - KiraMaple",
+        "🇦🇪 阿联酋 (UAE) 02 - KiraMaple",
+        "🇦🇪 阿联酋 (UAE) 03 - KiraMaple",
+        "🇦🇪 阿联酋 (UAE) 04 - KiraMaple",
+        "🇦🇪 阿联酋 (UAE) 05 - KiraMaple"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇪 阿联酋 (UAE) 01 - KiraMaple"
+        "🇦🇪 阿联酋 (UAE) 01 - KiraMaple",
+        "🇦🇪 阿联酋 (UAE) 02 - KiraMaple",
+        "🇦🇪 阿联酋 (UAE) 03 - KiraMaple",
+        "🇦🇪 阿联酋 (UAE) 04 - KiraMaple",
+        "🇦🇪 阿联酋 (UAE) 05 - KiraMaple"
       ],
       "url": "https://www.google.com/generate_204"
     },
