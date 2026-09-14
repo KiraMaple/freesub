@@ -6,14 +6,26 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇳 印度 (India) 01 - KiraMaple"
+        "🇮🇳 印度 (India) 01 - KiraMaple",
+        "🇮🇳 印度 (India) 02 - KiraMaple",
+        "🇮🇳 印度 (India) 03 - KiraMaple",
+        "🇮🇳 印度 (India) 04 - KiraMaple",
+        "🇮🇳 印度 (India) 05 - KiraMaple",
+        "🇮🇳 印度 (India) 06 - KiraMaple",
+        "🇮🇳 印度 (India) 07 - KiraMaple"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇳 印度 (India) 01 - KiraMaple"
+        "🇮🇳 印度 (India) 01 - KiraMaple",
+        "🇮🇳 印度 (India) 02 - KiraMaple",
+        "🇮🇳 印度 (India) 03 - KiraMaple",
+        "🇮🇳 印度 (India) 04 - KiraMaple",
+        "🇮🇳 印度 (India) 05 - KiraMaple",
+        "🇮🇳 印度 (India) 06 - KiraMaple",
+        "🇮🇳 印度 (India) 07 - KiraMaple"
       ],
       "url": "https://www.google.com/generate_204"
     },

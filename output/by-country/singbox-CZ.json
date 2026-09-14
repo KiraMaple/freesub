@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇨🇿 CZ 01 - KiraMaple",
+        "🇨🇿 CZ 02 - KiraMaple",
+        "🇨🇿 CZ 03 - KiraMaple",
+        "🇨🇿 CZ 04 - KiraMaple",
+        "🇨🇿 CZ 05 - KiraMaple"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇨🇿 CZ 01 - KiraMaple",
+        "🇨🇿 CZ 02 - KiraMaple",
+        "🇨🇿 CZ 03 - KiraMaple",
+        "🇨🇿 CZ 04 - KiraMaple",
+        "🇨🇿 CZ 05 - KiraMaple"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
