@@ -7,7 +7,9 @@
       "outbounds": [
         "auto",
         "🇫🇮 FI 01 - KiraMaple",
-        "🇫🇮 FI 02 - KiraMaple"
+        "🇫🇮 FI 02 - KiraMaple",
+        "🇫🇮 FI 03 - KiraMaple",
+        "🇫🇮 FI 04 - KiraMaple"
       ]
     },
     {
@@ -15,7 +17,9 @@
       "tag": "auto",
       "outbounds": [
         "🇫🇮 FI 01 - KiraMaple",
-        "🇫🇮 FI 02 - KiraMaple"
+        "🇫🇮 FI 02 - KiraMaple",
+        "🇫🇮 FI 03 - KiraMaple",
+        "🇫🇮 FI 04 - KiraMaple"
       ],
       "url": "https://www.google.com/generate_204"
     },

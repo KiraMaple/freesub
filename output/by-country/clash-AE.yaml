@@ -6,17 +6,17 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - KiraMaple
   type: vless
-  server: cdn.snobvpn.online
-  port: 80
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /snob-ws
+    path: /
     headers:
-      Host: cdn.snobvpn.online
+      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 02 - KiraMaple
   type: vless
   server: uae.unixzone.us
@@ -32,6 +32,19 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 03 - KiraMaple
   type: vless
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 04 - KiraMaple
+  type: vless
   server: 89.125.147.199
   port: 443
   uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
@@ -41,8 +54,8 @@ proxies:
   reality-opts:
     public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
   servername: maps.apple.com
-  client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 04 - KiraMaple
+  client-fingerprint: chrome
+- name: 🇦🇪 阿联酋 (UAE) 05 - KiraMaple
   type: vless
   server: 84.235.244.108
   port: 22573
@@ -55,21 +68,9 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 05 - KiraMaple
-  type: vless
-  server: 89.125.147.199
-  port: 443
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
-  servername: maps.apple.com
-  client-fingerprint: chrome
 - name: 🇦🇪 阿联酋 (UAE) 06 - KiraMaple
   type: vless
-  server: uae.unixzone.us
+  server: 84.235.244.108
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -80,6 +81,31 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 07 - KiraMaple
+  type: vless
+  server: 89.125.147.199
+  port: 443
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
+  servername: maps.apple.com
+  client-fingerprint: random
+- name: 🇦🇪 阿联酋 (UAE) 08 - KiraMaple
+  type: vless
+  server: 45.130.125.201
+  port: 80
+  uuid: dc8a9493-c54a-459e-d060-81a700000001
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-core.netizo09.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -91,6 +117,8 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 04 - KiraMaple
   - 🇦🇪 阿联酋 (UAE) 05 - KiraMaple
   - 🇦🇪 阿联酋 (UAE) 06 - KiraMaple
+  - 🇦🇪 阿联酋 (UAE) 07 - KiraMaple
+  - 🇦🇪 阿联酋 (UAE) 08 - KiraMaple
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -102,5 +130,7 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 04 - KiraMaple
   - 🇦🇪 阿联酋 (UAE) 05 - KiraMaple
   - 🇦🇪 阿联酋 (UAE) 06 - KiraMaple
+  - 🇦🇪 阿联酋 (UAE) 07 - KiraMaple
+  - 🇦🇪 阿联酋 (UAE) 08 - KiraMaple
 rules:
 - MATCH,PROXIES
