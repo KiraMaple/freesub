@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇲 AM 01 - KiraMaple"
+        "🇰🇿 KZ 01 - KiraMaple",
+        "🇰🇿 KZ 02 - KiraMaple"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇲 AM 01 - KiraMaple"
+        "🇰🇿 KZ 01 - KiraMaple",
+        "🇰🇿 KZ 02 - KiraMaple"
       ],
       "url": "https://www.google.com/generate_204"
     },
