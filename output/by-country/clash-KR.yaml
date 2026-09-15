@@ -5,39 +5,23 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 - KiraMaple
-  type: ss
-  server: 141.164.45.187
-  port: 7002
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
+  type: vmess
+  server: 146.56.112.110
+  port: 8888
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+  alterId: 0
+  cipher: auto
   udp: true
-- name: 🇰🇷 韩国 (South Korea) 02 - KiraMaple
-  type: vless
-  server: 151.245.106.49
-  port: 2053
-  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
-  udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
-  servername: www.cloudflare.com
-  client-fingerprint: random
+- name: 🇰🇷 韩国 (South Korea) 02 - KiraMaple
+  type: ss
+  server: 141.164.45.187
+  port: 6697
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+  udp: true
 - name: 🇰🇷 韩国 (South Korea) 03 - KiraMaple
-  type: ss
-  server: 141.164.45.187
-  port: 9090
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 04 - KiraMaple
-  type: ss
-  server: 141.164.45.187
-  port: 9101
-  cipher: aes-256-gcm
-  password: e4FCWrgpkji3QY
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 05 - KiraMaple
   type: vmess
   server: 140.238.2.250
   port: 443
@@ -47,6 +31,20 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇰🇷 韩国 (South Korea) 04 - KiraMaple
+  type: ss
+  server: 141.164.45.187
+  port: 5001
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 05 - KiraMaple
+  type: ss
+  server: 141.164.45.187
+  port: 7002
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+  udp: true
 - name: 🇰🇷 韩国 (South Korea) 06 - KiraMaple
   type: vless
   server: 151.245.106.49
@@ -60,15 +58,19 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: firefox
 - name: 🇰🇷 韩国 (South Korea) 07 - KiraMaple
-  type: vmess
-  server: 146.56.112.110
-  port: 8888
-  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
-  alterId: 0
-  cipher: auto
+  type: ss
+  server: 141.164.45.187
+  port: 8119
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
   udp: true
-  tls: false
-  skip-cert-verify: true
+- name: 🇰🇷 韩国 (South Korea) 08 - KiraMaple
+  type: ss
+  server: 141.164.45.187
+  port: 8091
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -81,6 +83,7 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 05 - KiraMaple
   - 🇰🇷 韩国 (South Korea) 06 - KiraMaple
   - 🇰🇷 韩国 (South Korea) 07 - KiraMaple
+  - 🇰🇷 韩国 (South Korea) 08 - KiraMaple
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -93,5 +96,6 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 05 - KiraMaple
   - 🇰🇷 韩国 (South Korea) 06 - KiraMaple
   - 🇰🇷 韩国 (South Korea) 07 - KiraMaple
+  - 🇰🇷 韩国 (South Korea) 08 - KiraMaple
 rules:
 - MATCH,PROXIES
