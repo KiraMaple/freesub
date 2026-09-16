@@ -6,14 +6,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇲 AM 01 - KiraMaple"
+        "🇨🇭 CH 01 - KiraMaple",
+        "🇨🇭 CH 02 - KiraMaple",
+        "🇨🇭 CH 03 - KiraMaple",
+        "🇨🇭 CH 04 - KiraMaple",
+        "🇨🇭 CH 05 - KiraMaple"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇲 AM 01 - KiraMaple"
+        "🇨🇭 CH 01 - KiraMaple",
+        "🇨🇭 CH 02 - KiraMaple",
+        "🇨🇭 CH 03 - KiraMaple",
+        "🇨🇭 CH 04 - KiraMaple",
+        "🇨🇭 CH 05 - KiraMaple"
       ],
       "url": "https://www.google.com/generate_204"
     },
