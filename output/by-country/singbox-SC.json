@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇺 澳大利亚 (Australia) 01 - KiraMaple"
+        "🇸🇨 SC 01 - KiraMaple",
+        "🇸🇨 SC 02 - KiraMaple",
+        "🇸🇨 SC 03 - KiraMaple"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇺 澳大利亚 (Australia) 01 - KiraMaple"
+        "🇸🇨 SC 01 - KiraMaple",
+        "🇸🇨 SC 02 - KiraMaple",
+        "🇸🇨 SC 03 - KiraMaple"
       ],
       "url": "https://www.google.com/generate_204"
     },
