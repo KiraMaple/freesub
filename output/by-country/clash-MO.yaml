@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇭🇰 中国香港 (Hong Kong) 01 - KiraMaple
+- name: 🇲🇴 MO 01 - KiraMaple
   type: vless
-  server: 104.16.60.10
+  server: 45.202.247.152
   port: 443
-  uuid: cdf5205e-897f-46a7-8d7f-21a61a80b466
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: hk1.69lover.my
+  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /api/v2/e2fe4e52a165854d/stream
+    path: /
     headers:
-      Host: hk1.69lover.my
+      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇭🇰 中国香港 (Hong Kong) 01 - KiraMaple
+  - 🇲🇴 MO 01 - KiraMaple
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇰 中国香港 (Hong Kong) 01 - KiraMaple
+  - 🇲🇴 MO 01 - KiraMaple
 rules:
 - MATCH,PROXIES
