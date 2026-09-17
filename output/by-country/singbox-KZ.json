@@ -6,14 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇾 MY 01 - KiraMaple"
+        "🇰🇿 KZ 01 - KiraMaple",
+        "🇰🇿 KZ 02 - KiraMaple",
+        "🇰🇿 KZ 03 - KiraMaple",
+        "🇰🇿 KZ 04 - KiraMaple"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇾 MY 01 - KiraMaple"
+        "🇰🇿 KZ 01 - KiraMaple",
+        "🇰🇿 KZ 02 - KiraMaple",
+        "🇰🇿 KZ 03 - KiraMaple",
+        "🇰🇿 KZ 04 - KiraMaple"
       ],
       "url": "https://www.google.com/generate_204"
     },
