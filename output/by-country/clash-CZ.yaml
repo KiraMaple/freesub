@@ -6,104 +6,6 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - KiraMaple
   type: vless
-  server: 195.85.23.88
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 02 - KiraMaple
-  type: vless
-  server: 195.85.23.29
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 03 - KiraMaple
-  type: vless
-  server: 195.85.23.45
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 04 - KiraMaple
-  type: vless
-  server: 195.85.23.248
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 05 - KiraMaple
-  type: vless
-  server: 195.85.23.217
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 06 - KiraMaple
-  type: vless
-  server: 195.85.23.75
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 07 - KiraMaple
-  type: vless
-  server: 195.85.23.219
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 08 - KiraMaple
-  type: vless
   server: 195.85.23.252
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
@@ -113,38 +15,10 @@ proxies:
   servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 09 - KiraMaple
-  type: vless
-  server: 195.85.23.111
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 10 - KiraMaple
-  type: vless
-  server: 172.64.149.54
-  port: 443
-  uuid: fe34b5df-e634-4c83-a057-e53f41ce8e27
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lATE-LaB-d6A2.CIwodA8715.WoRKerS.DeV
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiQ3dmV1d4OUFQdSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
-    headers:
-      Host: late-lab-d6a2.ciwoda8715.workers.dev
-- name: 🇨🇿 CZ 11 - KiraMaple
+- name: 🇨🇿 CZ 02 - KiraMaple
   type: vless
   server: 195.85.23.47
   port: 443
@@ -155,7 +29,21 @@ proxies:
   servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 03 - KiraMaple
+  type: vless
+  server: 195.85.23.111
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
 proxy-groups:
@@ -166,14 +54,6 @@ proxy-groups:
   - 🇨🇿 CZ 01 - KiraMaple
   - 🇨🇿 CZ 02 - KiraMaple
   - 🇨🇿 CZ 03 - KiraMaple
-  - 🇨🇿 CZ 04 - KiraMaple
-  - 🇨🇿 CZ 05 - KiraMaple
-  - 🇨🇿 CZ 06 - KiraMaple
-  - 🇨🇿 CZ 07 - KiraMaple
-  - 🇨🇿 CZ 08 - KiraMaple
-  - 🇨🇿 CZ 09 - KiraMaple
-  - 🇨🇿 CZ 10 - KiraMaple
-  - 🇨🇿 CZ 11 - KiraMaple
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -182,13 +62,5 @@ proxy-groups:
   - 🇨🇿 CZ 01 - KiraMaple
   - 🇨🇿 CZ 02 - KiraMaple
   - 🇨🇿 CZ 03 - KiraMaple
-  - 🇨🇿 CZ 04 - KiraMaple
-  - 🇨🇿 CZ 05 - KiraMaple
-  - 🇨🇿 CZ 06 - KiraMaple
-  - 🇨🇿 CZ 07 - KiraMaple
-  - 🇨🇿 CZ 08 - KiraMaple
-  - 🇨🇿 CZ 09 - KiraMaple
-  - 🇨🇿 CZ 10 - KiraMaple
-  - 🇨🇿 CZ 11 - KiraMaple
 rules:
 - MATCH,PROXIES
