@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇧🇪 BE 01 - KiraMaple",
+        "🇧🇪 BE 02 - KiraMaple",
+        "🇧🇪 BE 03 - KiraMaple",
+        "🇧🇪 BE 04 - KiraMaple",
+        "🇧🇪 BE 05 - KiraMaple",
+        "🇧🇪 BE 06 - KiraMaple",
+        "🇧🇪 BE 07 - KiraMaple",
+        "🇧🇪 BE 08 - KiraMaple"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇧🇪 BE 01 - KiraMaple",
+        "🇧🇪 BE 02 - KiraMaple",
+        "🇧🇪 BE 03 - KiraMaple",
+        "🇧🇪 BE 04 - KiraMaple",
+        "🇧🇪 BE 05 - KiraMaple",
+        "🇧🇪 BE 06 - KiraMaple",
+        "🇧🇪 BE 07 - KiraMaple",
+        "🇧🇪 BE 08 - KiraMaple"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
